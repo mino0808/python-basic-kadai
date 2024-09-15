@@ -125,3 +125,15 @@ Author: mino <syua.vs.26823@gmail.com>
 Date:   Mon Sep 9 21:33:15 2024 +0900
 
     1回目のコミット
+    PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコッミト"        
+[main ba73f1c] 2回目のコッミト
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git log --oneline
+ba73f1c (HEAD -> main) 2回目のコッミト
+f06468e (origin/main) Merge pull request #1 from mino0808/pull_request
+620e1cc (origin/pull_request) プルリクエスト
+2258997 3回目のコミット
+69eef20 2回目のコミット
+73d9737 1回目のコミット
