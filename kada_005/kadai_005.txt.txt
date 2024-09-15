@@ -1,0 +1,127 @@
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> mkdir git_kadai
+
+
+    ディレクトリ: C:\Users\syuav\OneDrive\デスクトップ\lesson
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/09/09     20:48                git_kadai
+
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_kadai
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_kadai> cd ..
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> mkdir git_challenge     
+d-----        2024/09/09     20:50                git_challenge
+
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge        
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git init  
+Initialized empty Git repository in C:/Users/syuav/OneDrive/デスクトップ/lesson/git_challenge/.git/
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge>
+ *  履歴が復元されました 
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> 
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge        
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) 73d9737] 1回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git status
+
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git diff hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコミット"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge>
+ *  履歴が復元されました 
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> git add hello_world.txt.txt
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd ^C
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコミット"        
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコミット"        
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge>
+ *  履歴が復元されました 
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコミッ
+ト"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコミッ
+ト"   
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge>
+ *  履歴が復元されました 
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson>
+ *  履歴が復元されました 
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> 
+ *  履歴が復元されました 
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson> cd git_challenge
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git log
+commit 73d97373698ca91de03a265892a888f1d26eb779 (HEAD -> main)
+Author: mino <syua.vs.26823@gmail.com>
+Date:   Mon Sep 9 21:33:15 2024 +0900
+
+    1回目のコミット
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> dir
+
+
+    ディレクトリ: C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l        2024/09/09     21:20              0 hello_world.txt.txt
+
+
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "2回目のコミット"        
+[main 69eef20] 2回目のコミット
+ 1 file changed, 3 insertions(+)
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git add .\hello_world.txt.txt
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git commit -m "3回目のコミット"        
+[main 2258997] 3回目のコミット
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\syuav\OneDrive\デスクトップ\lesson\git_challenge> git log
+commit 2258997d4fb25f5c096d6ba93d02ae1e2f28c51b (HEAD -> main)
+Author: mino <syua.vs.26823@gmail.com>
+Date:   Tue Sep 10 21:16:43 2024 +0900
+
+    3回目のコミット
+
+commit 69eef204059e1bdb05561fb81a8b6c33143ae80e
+Author: mino <syua.vs.26823@gmail.com>
+Date:   Tue Sep 10 21:14:52 2024 +0900
+
+    2回目のコミット
+
+commit 73d97373698ca91de03a265892a888f1d26eb779
+Author: mino <syua.vs.26823@gmail.com>
+Date:   Mon Sep 9 21:33:15 2024 +0900
+
+    1回目のコミット
